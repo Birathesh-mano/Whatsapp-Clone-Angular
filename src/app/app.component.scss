@@ -20,10 +20,30 @@
     margin: auto;
     width: 70%;
     height: 90%;
-    background-color: rgb(233, 185, 185);
+    background-color: rgb(77, 166, 194);
     right: 0px;
     left: 0px;
     box-shadow: -1px -1px 5px rgb(129, 101, 101);
 
     border-radius:3px;
+
+    display: flex;
+    flex-direction: row;
+    #sidebar{
+        flex-basis: 30%;
+        border-right: 1px rgb(36, 74, 145);
+        display: flex;
+        flex-direction: column;
+
+        #sidebarHeader{
+            flex-basis: 65px;
+            background-color: skyblue;
+
+        }
+        #searchBox{
+            flex-basis: 50px;
+            background-color: snow;
+        }
+
+    }
 }
